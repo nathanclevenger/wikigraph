@@ -1,0 +1,64 @@
+{
+  "name": "microlink.io",
+  "description": "Turn websites into data",
+  "image": "https://cdn.microlink.io/logo/logo.png",
+  "url": "http://microlink.io/apis.json",
+  "tags": [
+    "API",
+    "embeddable",
+    "preview-images-links",
+    "embedded-media",
+    "screenshot",
+    "color-palette",
+    "embed",
+    "preview-links"
+  ],
+  "apis": [
+    {
+	      "name": "microlink",
+	      "description": "Turn websites into data",
+	      "image": "https://cdn.microlink.io/logo/logo.png",
+        "humanURL": "https://microlink.io/docs",
+        "baseURL": "https://api.microlink.io",
+	      "tags": [
+          "API",
+          "embeddable",
+          "preview-images-links",
+          "embedded-media",
+          "screenshot",
+          "color-palette",
+          "embed",
+          "preview-links"
+	      ],
+	      "properties": [
+	        {
+	          "type": "Pricing",
+	          "url": "https://microlink.io#pricing"
+	        },
+	        {
+	          "type": "X-docs",
+	          "url": "https://microlink.io/docs"
+	        }
+	      ],
+	      "contact": [
+	        {
+	          "FN": "Microlink HQ",
+	          "email": "hello@microlink.io",
+	          "X-twitter": "microlinkhq"
+	        }
+	      ]
+	    }
+  ],
+  "created": "2017-10-10",
+  "modified": "2019-29-04",
+  "specificationVersion": "1.0",
+  "maintainers": [
+    {
+      "FN": "Kiko Beats",
+      "X-Twitter": "kikobeats",
+      "X-GitHub": "kikobeats",
+      "email": "josefrancisco.verdu@gmail.com",
+      "url": "https://kikobeats.com"
+    }
+  ]
+}

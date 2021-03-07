@@ -1,0 +1,47 @@
+import capitalize from 'microsoft-capitalize'
+
+const special = [
+  'Unified Cache',
+  'Edge Node Cache',
+  'apiKey',
+  'APIs',
+  'background',
+  'browser',
+  'cache',
+  'click',
+  'CodeSandbox',
+  'deviceScaleFactor',
+  'fullPage',
+  'GitHub',
+  'hasTouch',
+  'height',
+  'hide',
+  'isLandscape',
+  'isMobile',
+  'JavaScript',
+  'Lighthouse',
+  'Lighthouse Viewer',
+  'Microlink',
+  'Node.js',
+  'oEmbed',
+  'PDFs',
+  'omitBackground',
+  'Open Graph',
+  'options',
+  'package.json',
+  'quality',
+  'retry',
+  'scroll',
+  'SDK',
+  'timeout',
+  'type',
+  'TypeScript',
+  'url',
+  'waitFor',
+  'waitUntil',
+  'width',
+  'WordPress'
+]
+
+export default (str, exceptions = []) =>
+  capitalize(str, special.concat(exceptions))

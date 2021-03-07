@@ -10,6 +10,7 @@ export default (req, res) => {
     tables: await page.tables()
   }
   res.statusCode = 200
+  res.setHeader('Cache-Control', 's-maxage=60, stale-while-revalidate');
   res.json(data)
 }
 
